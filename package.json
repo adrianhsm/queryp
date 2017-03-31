@@ -1,0 +1,29 @@
+{
+  "name": "queryp",
+  "version": "1.0.4",
+  "description": "a nodejs package for process query",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 2000 --recursive tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianhsm/queryp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianhsm/queryp/issues"
+  },
+  "homepage": "https://github.com/adrianhsm/queryp#readme",
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
